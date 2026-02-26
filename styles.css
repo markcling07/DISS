@@ -1,0 +1,64 @@
+
+.container {
+    width: 100%;
+    max-width: 64rem; /* adjust to desired page width */
+    margin: 0 auto;   /* center on larger screens */
+    padding: 2rem;    /* inner spacing */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 18px;       /* comfortable reading size */
+    line-height: 1.6;      /* good reading rhythm */
+    color: #222;
+    background: #fff;
+}
+
+.Heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 6rem;
+ 
+}
+
+.hero {
+/* border: 1px solid black;  */
+padding-top: 2rem;
+
+max-width: 50rem;
+min-height: 20rem;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+gap: 2rem;
+
+}
+
+.hero-details {
+display: flex;
+gap: 2rem;
+
+}
+
+.hero-image {
+    width: 7rem;
+    height: 7rem;
+    background-color: blue;
+}
+
+.hero-disc {
+   
+}
+
+
+.hero-opening {
+    max-width: 40rem;
+    text-align: justify;
+    font-style: italic;
+    margin-top: 5rem;
+    /* optional: preserve intentional line breaks */
+    /* white-space: pre-wrap; */
+}
